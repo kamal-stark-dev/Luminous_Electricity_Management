@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+  background-color: $primary-color;
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  align-items: center;
+  font-size: 1.05rem;
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+
+  & > div {
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 1.2rem;
+
+      i {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .legal {
+    a {
+      text-decoration: underline;
+    }
+  }
+}
